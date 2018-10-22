@@ -57,6 +57,9 @@ cacheSolve <- function(x, ...) {
         message("There isn't inverse of 'x'")
     }
     
+    
+    
+    
     ## ** Set the info **
     x$setInverse(matrizAInv)
     matrizAInv
